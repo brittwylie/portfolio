@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Table of Contents 
+
+Form
+Images and Video
+Organization
+Typography
+
+Media Queries
+
+*/
+
+
+*,*:before,*:after{ 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+		
+		
+	
+
+/* Form */
+
+
+fieldset {
+	border: 2px solid #dadada;
+	margin-bottom: 3em;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]
+{
+	border: 3px solid grey;
+	font-size: 1.3em;
+	padding: 0.5em;
+	transition: all 0.5s;
+	transition-timing-function: ease-in;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus
+{
+	border: 3px solid grey;
+	background: #dadada;
+	transform: scalex(1.1);
+	transform-origin: left;
+}
+
+label {
+	color: #000;
+	display: block;
+	font-weight: bold;
+	margin-top: 1.4em;
+}
+	
+label-input {
+	font-weight: 100;
+}
+
+
+.left {
+	float: left; 
+	margin: 0 1%;
+	padding: 1.2em; 
+	width: 60%; 
+}
+
+.right {
+	float: right; 
+	margin: 0 1%;
+	width: 30%; 
+}
+
+.left textarea {
+	width: 90%;
+}
+
+/*Images & Videos */
+
+.img-menu{
+	margin:auto;
+	width:95%;
+
+}
+
+figure{
+    display:inline-block;
+    padding-left:auto;
+    padding-right:auto;
+    position:relative;
+}
+ 
+figure img{
+	border-radius: 10px;
+    transition:all 0.5s;
+}
+
+figure:before{
+    bottom:5%;
+    color:#fff;
+    content:"+";
+    font-size:40px;
+    height:35px;
+    line-height:1px;
+    opacity:1;
+    padding:10px;
+    position:absolute;
+    text-align:center;
+    transition:all 0.3s; 
+    width:35px;
+}
+
+figure:hover:before{
+    opacity: 0;
+}
+
+figcaption{
+	background:#4c1b1e;
+	bottom:9%;
+	color:#fff;
+	font-family:century gothic, sans serif;
+	opacity:0;
+	padding: 0.75em;
+	position:absolute;
+	transition:all 0.5s;
+	width:85%;
+}
+
+figcaption:hover{
+	opacity:1;
+}
+
+		
+.promo-vid{
+	background-color:#fff;
+	margin:auto;
+	max-width:700px;
+	max-height:400px;
+	padding-top:1.5em;
+}
+
+video{
+	border-radius: 20px;
+	max-width:100%;
+	max-height:100%;
+}
+
+			
+		
+/* Organization */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+x.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+footer {
+	clear: both;
+}
+
+header, footer, .del-bar{
+	background-color:#4c1b1e;
+	height:75px;
+	margin: 0;
+	max-height:100%;
+	max-width:100%;
+	padding: 0;
+	position:inherit;
+	width:100%;
+	
+}	
+
+.hour {
+	visibility: hidden;
+}
+
+.hour li, .hours li {
+	list-style-type: none; 
+	display: block;
+}
+
+iframe {
+	max-width:100%;
+}
+
+main{
+	margin: 0 auto;
+	position:relative;
+	width:90%;
+}
+		
+
+.nav-bar, .del-bar, .nav-footer{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	position: relative;
+
+}
+
+nav ul, .social-nav ul, .del-bar ul{
+	list-style-type:none;
+}
+
+nav li, .social-nav li, .del-bar li{
+	display:inline;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.nav-mob{
+	visibility: hidden;
+}
+
+
+/* Typography */
+
+a:link, a:active, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+body {
+	font-family: Century Gothic;
+} 
+
+.hour ul, .hours ul{
+	font-size: 120%;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'Leckerli One', cursive;
+	font-size:2em;
+	margin:0px;
+	padding:0px;
+	padding-top:11px;
+	text-align:center;
+}
+
+h2 {
+	color:#4c1b1e;
+	font-family: 'Leckerli One', cursive;
+	font-size:1.75em;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	text-align: justify; 
+	text-justify: inter-word;
+	width: 80%;
+}
+
+
+
+
+
+/* Mobile */
+
+@media screen and (max-width:40em){
+		
+footer {
+	font-size:.75em;
+}
+
+figure:before {
+	bottom:7%;
+	content:"+";
+	font-size:.1.5em;
+	line-height:.75em;
+	padding:7px;
+	position:absolute;
+}
+
+
+.del-bar {
+	
+}
+
+header {
+	height:90px;
+}
+
+.hour {
+	visibility:visible;
+}
+
+html {
+	font-size:112%;
+}
+
+h1 {
+	font-size:1.5em;
+	text-align:center;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+.left {
+	float: none;
+}
+
+.nav-bar {
+	visibility: hidden;
+	text-indent: -9999px;
+ }
+
+.nav-footer {
+	padding-top:5px;
+	margin-left:auto;
+}
+
+.nav-mob {
+	margin-top:-85px;
+	margin-left:auto;
+	margin-right:auto;
+	visibility: visible;
+}
+
+.promo-vid {
+	max-width:85%;
+	max-height:85%;
+}
+
+.right {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	text-indent:-9999px;
+
+}
+
+}
+
+
+
+
+
+
+
+
