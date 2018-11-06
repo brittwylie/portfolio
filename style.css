@@ -1,0 +1,164 @@
+
+
+#about{
+
+	width:100%;
+	text-align: center;
+	
+	
+}
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+	z-index: -1;
+	
+}
+
+#contact img{
+	height:30px;
+	width:35px;
+	
+}
+
+
+p {
+	color: #252525;
+	line-height:24px;
+	margin: 0;
+	padding: 1em;
+}
+
+
+h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+	color: #1a4d5e;	
+	
+}
+
+h3{
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.75em;
+	color: #1a4d5e;	
+	padding-top:2em;
+}
+#header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+}
+
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#body > div img {
+	border: 2px solid #fff;
+	margin: 24px 0 0;
+	padding: 0;
+}
+
+
+figure{
+    display:inline-block;
+    padding-left:auto;
+    padding-right:auto;
+	margin-left:5%;
+	margin-right:5%;
+    position:relative;
+	
+}
+
+.galleryImg{
+	max-height:200px;
+	max-width:200px;
+	display:flex;
+	
+}
+
+footer {
+	background: #1a4d5e;
+	margin: 0;
+	padding: 36px 0 42px;
+	width:100%;
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+
+/*Dropdown Menu Styles */	
+		.dropdown {
+    position: fixed;
+    display: inline-block;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    list-style: none; 
+    width: 100%; 
+    padding: 0;
+}
+
+
+
+/** Button Styles **/
+.dropdown button {
+    background: #1a4d5e;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+}
+
+/** List Item Styles **/
+.dropdown a {
+    display: block;
+    padding: 0.2em 1.5em;
+    text-decoration: none;
+	text-align:center;
+    background: #fff;
+	    color: #333333;
+		border: solid 5px #eee;
+		border-radius:5px;
+		width:300%;
+}
+
+.dropdown a:hover {
+    background: #c7dddb;
+}
+
+/* End Dropdown Menu Styles */	
+
+
+
+
