@@ -4,8 +4,8 @@
 
 	width:100%;
 	text-align: center;
-	
-	
+
+
 }
 
 body {
@@ -18,13 +18,13 @@ body {
 	min-width: 960px;
 	padding: 0;
 	z-index: -1;
-	
+
 }
 
 #contact img{
 	height:30px;
 	width:35px;
-	
+
 }
 
 
@@ -39,14 +39,14 @@ p {
 h2{
 	font-family: 'Great Vibes', cursive;
 	font-size: 3em;
-	color: #1a4d5e;	
-	
+	color: #1a4d5e;
+
 }
 
 h3{
 	font-family: 'Great Vibes', cursive;
 	font-size: 1.75em;
-	color: #1a4d5e;	
+	color: #1a4d5e;
 	padding-top:2em;
 }
 #header {
@@ -77,17 +77,17 @@ figure{
     display:inline-block;
     padding-left:auto;
     padding-right:auto;
-	margin-left:5%;
-	margin-right:5%;
+		margin-left:5%;
+		margin-right:5%;
     position:relative;
-	
+
 }
 
 .galleryImg{
 	max-height:200px;
 	max-width:200px;
 	display:flex;
-	
+
 }
 
 footer {
@@ -106,11 +106,11 @@ footer p {
 }
 
 
-/*Dropdown Menu Styles */	
+/*Dropdown Menu Styles */
 		.dropdown {
     position: fixed;
     display: inline-block;
-	z-index: 1;
+		z-index: 1;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -123,8 +123,8 @@ footer p {
     top: 100%;
     display: none;
     margin: 0;
-    list-style: none; 
-    width: 100%; 
+    list-style: none;
+    width: 100%;
     padding: 0;
 }
 
@@ -145,9 +145,9 @@ footer p {
     display: block;
     padding: 0.2em 1.5em;
     text-decoration: none;
-	text-align:center;
+		text-align:center;
     background: #fff;
-	    color: #333333;
+	  color: #333333;
 		border: solid 5px #eee;
 		border-radius:5px;
 		width:300%;
@@ -157,8 +157,4 @@ footer p {
     background: #c7dddb;
 }
 
-/* End Dropdown Menu Styles */	
-
-
-
-
+/* End Dropdown Menu Styles */
