@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--General Styles--*/
+
+html{
+	
+	scroll-behavior: smooth;
+	
+}
+body {width: 100%; 
+		margin: 0 auto;
+		font-family:"Times New Roman", Times, serif;
+		font-size:1.15em;
+
+	}
+	  
+	  header{
+	margin:5% 5%;
+	text-align:center;
+	color:#650101;
+		
+}
+	  
+	  main{
+	margin: 5%;
+	width:90%;
+	display:inline-flex;
+	
+	
+	
+}
+
+
+footer{
+	margin: 5% 5%;
+	color: #650101;
+	width:90%;
+	font-size:.75em;
+	text-align:center;
+}
+
+
+
+.homeImgs{
+	margin: 0 25%;
+	
+}
+
+h2,h3,h4,h5{
+	color:#650101;
+}
+
+/*--End General Styles--*/
+
+/*--List Styles--*/
+
+#attorneys img{
+    display: flex;	
+	width:90%;
+	padding:2%;
+}
+
+#practiceList{
+	
+	font-size:1em;
+	padding-right:2.5%;
+	width:30%;
+	
+	
+}
+
+#practiceList a:link{
+	text-decoration:none;
+	color:#650101;
+	padding-bottom:5%;
+}
+
+
+#practiceList a:hover, #attorneyList a:hover{
+	text-decoration:none;
+	color:#666;
+}
+
+
+#MunicipalLaw, #PersonnelAndEmployment, #LitigationAndAppeals, #EminentDomain, #NuisanceAbatement, #ZoningAndLandUse, #EconomicDevelopment, #OilAndGas,   #RealEstate, #Elections, #DelinquentTaxCollection, #SchoolAndPublicLaw{
+	padding-top:5%;
+	
+}
+
+
+
+.img{
+	
+	margin-right:5%;
+	
+}
+
+
+/*--End List Styles--*/
+
+
+/*--Contact Page Styles--*/
+
+.map{
+	
+
+	padding-right:5%;
+	
+}
+
+
+.contact-form{
+	
+	margin-left:5%;
+	
+	
+}
+
+input{
+	
+	margin-bottom:5%;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+
+button{
+	width:75px;
+	height:50px;
+	background-color:#666;
+	color:#fff;
+	font-family:"Times New Roman", Times, serif;
+	font-size:1em;
+}
+
+/*--End Contact Page Styles--*/
+
+
+
+
+
+
+	
+	/*--Nav Styles--*/
+
+	.nav{
+	    width:100%;
+	    height:50px;
+	    background-color: #650101;
+	    padding-left:2%;
+		position:fixed;
+		padding-top: 0px;
+		margin-top: -5%;
+
+		}
+	.navli a {
+ 		 text-decoration: none; 
+		 color:white;
+		 }
+
+	.navli:hover, nav li:active{
+		background-color:#6E6E6E;
+
+	}
+	 
+	.navli {
+		
+    		color: white;
+    		padding: 16px;
+    		font-size: 1em;
+		list-style-type:none;
+		display: inline-block;
+		}
+
+
+#link a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	margin-top:2%
+	
+	}
+	
+#link{
+	width:409px;
+	height:50px;
+	background-color:#650101;
+	text-align:center;
+	padding-top:2%;
+	margin-top:2%;	
+	
+}
+
+#link:hover{
+	background-color:#666;
+}
+	
+	
