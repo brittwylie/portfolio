@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----Mobile Styles-----*/
+
+@media screen and (max-width:40em)
+{
+	html{font-size:100%;
+
+	
+}
+
+.nav{
+	font-size:.65em;
+	
+	
+	
+	
+}
+
+.nav li{
+	
+	margin-top:1%;
+	
+}
+
+header img{
+	padding-top:7%;
+	padding-bottom:7%;
+	margin:5% 5%;
+	
+	
+	
+}
+
+header img{
+	height:75%;
+	width:75%;
+	
+}
+
+.homeImgs{
+	display:flex;
+	flex-direction:column;
+	
+	
+}
+
+.page{
+	
+	display:flex;
+	flex-direction:column;
+
+	
+}
+
+iframe{
+	width:75%;
+	height:75%;
+	
+}
+
+input, textarea{
+	
+	width:90%;
+	
+}
+#practiceList li{
+
+	width:90%;
+	font-size:.75em;
+	
+	
+}
+
+
+}
+
+/*-----End Mobile Styles-----*/
+
+/*--General Styles--*/
+
+html{
+	
+	scroll-behavior: smooth;
+	
+}
+body {width: 100%; 
+		margin: 0 auto;
+		font-family:"Times New Roman", Times, serif;
+		font-size:1.15em;
+
+	}
+	
+#content{
+	margin-top:2%;
+	
+}
+
+footer{
+	margin: 5% 5%;
+	color: #650101;
+	width:90%;
+	font-size:.75em;
+	text-align:center;
+}
+	  
+	  header{
+	margin:5% 5%;
+	text-align:center;
+	color:#650101;
+		
+}
+
+.homeImgs{
+	margin: 0 10%;
+	display:flex;
+	
+}
+
+h2,h3,h4,h5{
+	color:#650101;
+}
+	  
+	  main{
+	margin-left: 12%;
+    margin-right: 12%;
+	width:80%;
+	
+	
+	
+}
+
+
+
+#Quality, #Dedication, #Experience{
+	text-decoration:none;
+	font-size:1.25em;
+	color:#650101;
+	text-align:center;	
+
+}
+
+
+#Experience{
+	margin: 0 15%;
+}
+
+#Quality{
+	
+	margin: 0 20%;
+	
+}
+
+#Dedication{
+		margin: 0 20%;
+}
+
+
+.page{
+	
+	display:inline-flex;
+	
+}
+
+
+/*.attorneys{
+	width:90%;
+	margin-left: 5%;
+	margin-right:6%;
+	justify-content: center;
+	
+	
+}
+
+
+.attorneys img{
+    display: flex;	
+	padding:5%;
+	width:200px;
+	height:200px;
+}*/
+
+/*--End General Styles--*/
+
+
+/*-----Figure Style------*/
+
+
+.attorneys figure{
+	margin-left:0;
+	margin-right:0;
+	
+}
+
+.attorneys figcaption{
+  bottom:2%;
+  width:91%;
+
+}
+
+figure{
+    display:inline-block;
+    padding-left:auto;
+    padding-right:auto;
+	margin-left:5%;
+	margin-right:5%;
+    position:relative;
+	max-height:100%;
+  	max-width:100%;
+
+}
+
+
+figure:before{
+  position:absolute;
+
+
+}
+
+figure:hover:before{
+  opacity:1;
+  background:#444;
+  color:#ccc;
+ opacity: 0;
+}
+
+figcaption{
+  position:absolute;
+  background:#6E6E6E;
+  color:#fff;
+  padding: 0.5em;
+  opacity:0.8;
+  bottom:1%;
+  width:90%;
+  height:20%;
+  transition:all 0.5s;
+  opacity:0;
+
+}
+
+figcaption:hover{
+  opacity:1;
+}
+
+figcaption a{
+	text-decoration:none;
+	color:#fff;
+	
+}
+
+/*-----Figure Style------*/
+
+/*--List Styles--*/
+
+#practiceList{
+	
+	font-size:1em;
+	padding-right:2.5%;
+	width:30%;
+	
+	
+}
+
+#practiceList a:link{
+	text-decoration:none;
+	color:#650101;
+	padding-bottom:5%;
+}
+
+
+#practiceList a:hover{
+	text-decoration:none;
+	color:#666;
+}
+
+#practiceList a:visited{
+	text-decoration:none;
+	color:#650101;
+}
+
+
+
+
+#MunicipalLaw, #PersonnelAndEmployment, #LitigationAndAppeals, #EminentDomain, #NuisanceAbatement, #ZoningAndLandUse, #EconomicDevelopment, #OilAndGas,   #RealEstate, #Elections, #DelinquentTaxCollection, #SchoolAndPublicLaw{
+	padding-top:5%;
+	
+}
+
+
+
+.img{
+	
+	margin-right:5%;
+	
+}
+
+
+/*--End List Styles--*/
+
+
+/*--Contact Page Styles--*/
+
+.map{
+	
+
+	padding-right:5%;
+	
+}
+
+
+.contact-form{
+	
+	margin-left:5%;
+	
+	
+}
+
+input{
+	
+	margin-bottom:1%;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+
+button{
+	width:75px;
+	height:50px;
+	background-color:#666;
+	color:#fff;
+	font-family:"Times New Roman", Times, serif;
+	font-size:1em;
+}
+
+#message{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;	
+	
+}
+
+/*--End Contact Page Styles--*/
+
+
+
+
+
+
+	
+	/*--Nav Styles--*/
+
+	.nav{
+	    width:100%;
+	    height:50px;
+	    background-color: #650101;
+	    padding-left:2%;
+		position:fixed;
+		padding-top: 0px;
+		margin-top: -5%;
+		z-index:1;
+
+		}
+	.navli a {
+ 		 text-decoration: none; 
+		 color:white;
+		 }
+
+	.navli:hover, nav li:active{
+		background-color:#6E6E6E;
+
+	}
+	 
+	.navli {
+		
+    		color: white;
+    		padding: 16px;
+    		font-size: 1em;
+			list-style-type:none;
+			display: inline-block;
+		}
+
+
+#link a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	margin-top:2%
+	
+	}
+	
+#link{
+	width:409px;
+	height:50px;
+	background-color:#650101;
+	text-align:center;
+	padding-top:2%;
+	margin-top:2%;	
+	
+}
+
+#link:hover{
+	background-color:#666;
+}
+
+/*-----End Nav Styles------/
+
+	
+	
