@@ -43,7 +43,7 @@ iframe{
 }
 
 .calendar{
-	margin:0;
+	margin:0 auto;
 	padding:0;
 }
 .logo, .logo-box{
@@ -53,23 +53,20 @@ iframe{
 }
 
 .feature, .feature-gallery {
-	max-height:25%;
+  max-height:25%;
   max-width:25%;
-  margin:0 auto 0 auto;
-  padding-left:auto;
-  padding-right:auto;
-
+  margin:0 auto;
+  width: 25%;
+  text-align: center;
+	
 }
 
 .galley-feature img{
-	  margin: 0;
-	  padding-left:auto;
-  padding-right:auto;
-
+	  margin: 0 auto;
 }
 
 .figure{
-	max-height:65%;
+  max-height:65%;
   max-width:65%;
 
 }
@@ -94,7 +91,9 @@ iframe{
   font-size:95%;
   min-width:75%;
   min-height:75%;
+  margin: 0 auto;
   text-align:center;
+  width: 75%;
 
 }
 
@@ -151,6 +150,7 @@ input[type="text"], textarea
 	min-width:45%;
 	min-height:45%;
 	margin:0 auto;
+	text-align center;
 
 }
 
@@ -166,7 +166,8 @@ input[type="text"], textarea
 .feature, .gallery-feature {
 	max-height:45%;
   max-width:45%;
-  margin:auto;
+  margin: 0 auto;
+  text-align: center;
 
 }
 
@@ -243,7 +244,6 @@ video{
 
 .imgLinks{
 	margin:auto;
-	padding-left:15%;
 	
 }
 
