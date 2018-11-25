@@ -194,9 +194,9 @@ input[type="text"], textarea
 }
 
 .imgLinks{
-	margin:0 auto 0 auto;
-	padding-right:70%;
-	padding-left:30%;
+	 margin: 0 auto;
+    	 width: 100%;
+    	 text-align: center;
 
 	}
 
