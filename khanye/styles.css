@@ -160,17 +160,10 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   }
 
   .focuses {
-    margin: 50% 50%;
+    margin: 0 atuo;
   }
 
-  .focusesBoxes {
-    width: 15rem;
-    height: 15;
-    display: inline-block;
-    margin: 0 auto;
-    text-align: left;
-  }
-
+  
   .galley-feature img {
 
     margin: 0;
@@ -235,8 +228,6 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   .focuses,
   .galley-feature {
     margin: auto;
-    padding-left: 12%;
-
   }
 
   .calendar,
@@ -398,21 +389,16 @@ main {
   text-align: left;
   display: inline-block;
   max-width: 100%;
-  margin: 0 10%;
+  margin: 0 auto;
   padding-bottom: 5%;
 }
 
-.colorBox,
-.cutBox,
-.styleBox {
-  width: 300px;
-  height: 300px;
-  float: left;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+.focusesBoxes {
+  width: 15rem;
+  height: 15;
+  display: inline-block;
   margin: 0 auto;
-
-
+  text-align: left;
 }
 
 .focuses h4 {
