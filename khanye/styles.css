@@ -390,10 +390,11 @@ main {
 }
 
 .focusesBoxes {
-  width: 15rem;
   display: inline-block;
+  width: 20vw;
   margin: 0 auto;
-  text-align: left;
+  padding: 1vw;
+  vertical-align: top;
 }
 
 .focuses h4 {
