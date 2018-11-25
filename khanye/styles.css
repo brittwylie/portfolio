@@ -232,13 +232,9 @@ AUTHORS: Anh Nguyen and Britteny Wylie
 
   .calendar,
   .contact_form {
-    margin: auto;
-    padding-left: 10%;
-
-  }
-
-  .scissorBox {
-    padding-left: 4%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 
   }
 }
@@ -461,8 +457,6 @@ main {
 /*-----gallery-----*/
 figure {
   display: inline-block;
-  padding-left: auto;
-  padding-right: auto;
   margin-left: 5%;
   margin-right: 5%;
   position: relative;
