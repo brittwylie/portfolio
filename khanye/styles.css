@@ -386,7 +386,7 @@ main {
 }
 
 .focuses {
-  text-align: left;
+  text-align: center;
   display: inline-block;
   max-width: 100%;
   margin: 0 auto;
@@ -395,7 +395,6 @@ main {
 
 .focusesBoxes {
   width: 15rem;
-  height: 15;
   display: inline-block;
   margin: 0 auto;
   text-align: left;
