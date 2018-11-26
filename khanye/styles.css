@@ -21,27 +21,15 @@ AUTHORS: Anh Nguyen and Britteny Wylie
 
   html {
     font-size: 100%;
-
-
-
   }
 
-
-
-
-
   .homeH3 {
-
     font-size: 75%;
-
-
   }
 
   iframe {
     min-width: 25%;
     min-height: 35%;
-
-
   }
 
   .calendar {
@@ -53,7 +41,6 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   .logo-box {
     min-width: 25%;
     min-height: 25%;
-
   }
 
   .feature,
@@ -73,12 +60,10 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   .figure {
     max-height: 65%;
     max-width: 65%;
-
   }
 
   .p1,
   .p2 {
-
     width: 25%;
   }
 
@@ -90,18 +75,15 @@ AUTHORS: Anh Nguyen and Britteny Wylie
 
   .menu {
     font-size: 75%;
-
   }
 
   .hashtag {
-
     font-size: 95%;
     min-width: 75%;
     min-height: 75%;
     margin: 0 auto;
     text-align: center;
     width: 75%;
-
   }
 
 
@@ -109,6 +91,11 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   .imgLinks {
     margin: 0 auto;
 
+  }
+
+  .focusesBoxes {
+    display: block;
+    width: 90%;
   }
 
   video {
@@ -163,6 +150,10 @@ AUTHORS: Anh Nguyen and Britteny Wylie
     margin: 0 atuo;
   }
 
+  .focusesBoxes {
+    width: 29vw;
+    padding: 0vw;
+  }
   
   .galley-feature img {
 
@@ -176,6 +167,9 @@ AUTHORS: Anh Nguyen and Britteny Wylie
     width: 100%;
     text-align: center;
 
+  }
+  .imgLinks img {
+    width: 75%;
   }
 
 
