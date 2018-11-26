@@ -55,6 +55,10 @@ AUTHORS: Anh Nguyen and Britteny Wylie
 
   .galley-feature img {
     margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    width: 70%;
   }
 
   .figure {
@@ -156,10 +160,9 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   }
   
   .galley-feature img {
-
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
     width: 100%;
-
   }
 
   .imgLinks {
@@ -505,9 +508,9 @@ figcaption:hover {
 }
 
 .gallery-feature {
-  margin: 0 20% 0 20%;
-  max-height: 100%;
-  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 
 }
 
@@ -532,7 +535,8 @@ form {
 h3 {
   font-family: century-gothic, sans-serif;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
+  margin-top: 2rem;
   color: #5f193a;
 }
 
