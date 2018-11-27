@@ -35,8 +35,14 @@ html{
 	width: 98%
 }
 
+video {
+	width: 100%;
+}
 
-
+#galleryImg7 {
+	height: 100%;
+	width: auto;
+}
 
 
 
@@ -92,10 +98,6 @@ html{
 
 .dropdown a:hover {
     background: #c7dddb;
-}
-
-video {
-	width: 100%;
 }
 
 /* End Dropdown Menu Styles */	
