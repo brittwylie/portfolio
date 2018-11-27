@@ -31,15 +31,14 @@ html{
 	width: 90%;
 }
 #body > div img {
-	margin: 24px 0 30px;
-	width: 98%
+	margin: 0 auto;
 }
 
 video {
 	width: 100%;
 }
 
-#galleryImg7 {
+#galleryImg7 img {
 	height: 100%;
 	width: auto;
 }
