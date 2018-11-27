@@ -58,6 +58,10 @@ AUTHORS: Anh Nguyen and Britteny Wylie
     max-height: 100%;
     max-width: 100%;
     text-align: center;
+    
+  }
+
+  .gallery-feature-img {
     width: 70%;
   }
 
@@ -218,13 +222,14 @@ AUTHORS: Anh Nguyen and Britteny Wylie
   }
 
   .imgLinks {
-    margin: auto;
-
+    margin: 0 auto;
+    text-align: center;
   }
 
   .focuses,
   .galley-feature {
-    margin: auto;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .calendar,
