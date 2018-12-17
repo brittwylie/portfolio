@@ -69,6 +69,7 @@ h3{
 }
 
 #about p {
+	font-size: 1.2rem;
 	width: 60%;
 	margin: 0 auto;
 
@@ -77,18 +78,29 @@ h3{
 
 figure{
     display:inline-block;
-    padding-left:auto;
-    padding-right:auto;
-		margin-left:5%;
-		margin-right:5%;
     position:relative;
 
 }
 
+figcaption {
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
+.graphic-design {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.web-design {
+	width: 80%;
+	margin: 0 auto;
+}
 .galleryImg{
-	max-height:200px;
-	max-width:200px;
+	max-height:275px;
+	max-width:275px;
 	display:flex;
+	text-align: center;
+	margin: 0 auto
 
 }
 
@@ -189,5 +201,10 @@ footer p {
 		padding: 0;
 		text-align: center;
 		width: 90%;
+	}
+
+	.graphic-design, .web-design {
+		width: 90%;
+		margin: 0 auto;
 	}
 }
