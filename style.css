@@ -122,7 +122,7 @@ figcaption {
 }
 
 #portfolio {
-	width: 100% !important;
+	width: 90% !important;
 }
 
 footer {
@@ -219,5 +219,11 @@ footer p {
 	.web-design {
 		width: 90%;
 		margin: 0 auto;
+	}
+}
+@media only screen and (min-device-width: 1024px) {
+
+	#portfolio {
+		width: 80% !important;
 	}
 }
