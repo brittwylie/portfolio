@@ -1,6 +1,7 @@
 
 body {
-	min-width: 0;
+	min-width: 100%;
+	margin: 0 auto;
 }
 
 html{
@@ -43,6 +44,10 @@ video {
 	width: auto;
 }
 
+.galleryPImg {
+	max-width: 100%;
+	display: flex;
+}
 
 
 /*Dropdown Menu Styles */	

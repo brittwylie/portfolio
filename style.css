@@ -1,11 +1,7 @@
-
-
-#about{
-
-	width:100%;
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
-
-
 }
 
 body {
@@ -14,14 +10,13 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1;
-	margin: 0;
-	min-width: 960px;
+	margin: 0 auto;
+	width: 100%;
 	padding: 0;
-	z-index: -1;
 
 }
 video {
-	width: 100%;
+	width: 75%;
 }
 
 #contact img{
@@ -56,7 +51,7 @@ h3{
 	margin: 0 auto;
 	padding: 44px 0 50px;
 	text-align: center;
-	width: 960px;
+	width: 90%;
 }
 #body {
 	margin: 0;
@@ -67,12 +62,16 @@ h3{
 #body > div {
 	margin: 0 auto;
 	padding: 0;
-	width: 960px;
+	width: 90%;
 }
 #body > div img {
-	border: 2px solid #fff;
-	margin: 24px 0 0;
 	padding: 0;
+}
+
+#about p {
+	width: 60%;
+	margin: 0 auto;
+
 }
 
 
@@ -91,6 +90,15 @@ figure{
 	max-width:200px;
 	display:flex;
 
+}
+
+.galleryPImg {
+	max-width: 375px;
+	display: flex;
+
+}
+#portfolio {
+	width: 100%;
 }
 
 footer {
@@ -161,3 +169,25 @@ footer p {
 }
 
 /* End Dropdown Menu Styles */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	.galleryPImg {
+		max-width: 245px;
+		display: flex;
+
+	}
+
+	#body>div img {
+		border: 0;
+	  margin: 0;
+		padding: 0;
+	}
+
+	#header {
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		width: 90%;
+	}
+}
