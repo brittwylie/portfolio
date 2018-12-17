@@ -1,38 +1,46 @@
-
 body {
 	min-width: 100%;
 	margin: 0 auto;
 }
 
-html{
-	font-size:1.5em;
-	
+html {
+	font-size: 1.5em;
+
 }
+
 #header {
 	padding: 0;
-	margin-top:5%;
+	margin-top: 5%;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	position: relative;
 	width: 100%;
-	
+
 }
 
 #header a.logo img {
 	width: 100%;
 }
 
-#body {
-	width: 100%;
-	z-index:-1;
+#about p {
+	font-size: 0.7rem;
+	text-align: center;
+	width: 85%;
 }
 
-#body > div {
+#body {
+	width: 100%;
+	z-index: -1;
+}
+
+#body>div {
 	padding: 0 5%;
 	width: 90%;
 }
-#body > div img {
+
+#body>div img {
 	margin: 0 auto;
+	width: 100%
 }
 
 video {
@@ -49,60 +57,63 @@ video {
 	display: flex;
 }
 
+figcaption {
+	font-size: .75rem;	
+}
 
-/*Dropdown Menu Styles */	
+
+/*Dropdown Menu Styles */
 
 
-		.dropdown {
-			position:fixed;
-			display:compact;
-			z-index: 1;
-			width:75px;
+.dropdown {
+	position: fixed;
+	display: compact;
+	z-index: 1;
+	width: 75px;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: compact;
+	display: compact;
 }
 
 
 .dropdown .dropdown-menu {
-	position:relative;
-    top: 100%;
-    display: none;
-    margin: 0;
-    list-style: none; 
-    width: 100%; 
-    padding: 0;
+	position: relative;
+	top: 100%;
+	display: none;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	padding: 0;
 }
 
 
 
 /** Button Styles **/
 .dropdown button {
-    background: #1a4d5e;
-    color: #FFFFFF;
-    border: none;
-    margin: 0;
-    padding: 0.4em 0.8em;
-    font-size: 1em;
+	background: #1a4d5e;
+	color: #FFFFFF;
+	border: none;
+	margin: 0;
+	padding: 0.4em 0.8em;
+	font-size: 1em;
 }
 
 /** List Item Styles **/
 .dropdown a {
-    display: block;
-    padding: 0.2em 1.5em;
-    text-decoration: none;
-	text-align:center;
-    background: #fff;
-	    color: #333333;
-		border: solid 5px #eee;
-		border-radius:5px;
-		width:300%;
+	display: block;
+	padding: 0.2em 1.5em;
+	text-decoration: none;
+	text-align: center;
+	background: #fff;
+	color: #333333;
+	border: solid 5px #eee;
+	border-radius: 5px;
+	width: 300%;
 }
 
 .dropdown a:hover {
-    background: #c7dddb;
+	background: #c7dddb;
 }
 
-/* End Dropdown Menu Styles */	
-
+/* End Dropdown Menu Styles */
