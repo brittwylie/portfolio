@@ -194,7 +194,7 @@ footer p {
 
 /* End Dropdown Menu Styles */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
 
 	.galleryPImg {
 		max-width: 245px;
@@ -217,13 +217,53 @@ footer p {
 
 	.graphic-design,
 	.web-design {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
+	.galleryImg {
+		max-height: 250px;
+		max-width: 250px;
+	}
+		.web-design figure {
+			margin: 0 .5rem;
+		}
+
+		.web-design figure figcaption {
+			font-size: 14px;
+		}
 }
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-device-width: 990.1px) and (max-device-width: 1024px) {
+		.graphic-design,
+		.web-design {
+			width: 100%;
+			margin: 0 auto;
+		}
+		.graphic-design .galleryImg {
+				max-height: 200px;
+				max-width: 200px;
+		}
+
+		.web-design .galleryImg {
+			max-height: 220px;
+			max-width: 220px;
+		}
+		.web-design figure {
+				margin: 0 .5rem;
+		}
+		.web-design figure figcaption {
+			font-size: 14px;
+		}
+
+}
+@media only screen and (min-device-width: 1024.1px) {
 
 	#portfolio {
 		width: 80% !important;
+	}
+
+	.graphic-design,
+	.web-design {
+		width: 100%;
+		margin: 0 auto;
 	}
 }
