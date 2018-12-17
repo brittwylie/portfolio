@@ -91,11 +91,7 @@ figcaption {
 	margin-top: 1rem;
 }
 
-.graphic-design {
-	width: 70%;
-	margin: 0 auto;
-}
-
+.graphic-design,
 .web-design {
 	width: 80%;
 	margin: 0 auto;
@@ -116,7 +112,7 @@ figcaption {
 }
 
 #portfolio {
-	width: 100%;
+	width: 100% !important;
 }
 
 footer {
