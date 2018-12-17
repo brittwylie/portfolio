@@ -1,3 +1,9 @@
+html,
+.gr__brittwylie_github_io {
+	width: 100%;
+	margin: 0 auto;
+}
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -91,15 +97,19 @@ figcaption {
 	margin-top: 1rem;
 }
 
-.graphic-design,
+.graphic-design {
+	width: 75%;
+	margin: 0 auto;
+}
+
 .web-design {
 	width: 80%;
 	margin: 0 auto;
 }
 
 .galleryImg {
-	max-height: 275px;
-	max-width: 275px;
+	max-height: 270px;
+	max-width: 270px;
 	display: flex;
 	text-align: center;
 	margin: 0 auto
