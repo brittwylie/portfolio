@@ -101,7 +101,7 @@ figcaption {
 }
 
 .graphic-design {
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -111,8 +111,8 @@ figcaption {
 }
 
 .galleryImg {
-	max-height: 270px;
-	max-width: 270px;
+	max-height: 15rem;
+	max-width: 15rem;
 	display: flex;
 	text-align: center;
 	margin: 0 auto
@@ -125,7 +125,7 @@ figcaption {
 }
 
 #portfolio {
-	width: 90% !important;
+	width: 95% !important;
 }
 
 footer {
@@ -227,8 +227,8 @@ footer p {
 		margin: 0 auto;
 	}
 	.galleryImg {
-		max-height: 250px;
-		max-width: 250px;
+		max-height: 25rem;
+		max-width: 25rem;
 	}
 		.web-design figure {
 			margin: 0 .5rem;
