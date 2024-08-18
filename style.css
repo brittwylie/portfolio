@@ -111,8 +111,8 @@ figcaption {
 }
 
 .galleryImg {
-	max-height: 15rem;
-	max-width: 15rem;
+	max-height: 270px;
+	max-width: 300px;
 	display: flex;
 	text-align: center;
 	margin: 0 auto
@@ -248,8 +248,8 @@ footer p {
 			margin: 0 auto;
 		}
 		.graphic-design .galleryImg {
-				max-height: 200px;
-				max-width: 200px;
+				max-height: 270px;
+				max-width: 300px;
 		}
 
 		.web-design .galleryImg {
